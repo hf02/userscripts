@@ -13,7 +13,7 @@
 
     // this is a mess
 
-    var keyCode = 'AltLeft'
+    var keyCode = 'ControlRight'
     function launchSpeakText() {
         if (document.getElementById('alertasdnjfjisadnfalskjfnasljkgcnbsvdkjgbadcjbgvewruyvgvbraeiucgnvervbaglkajdsvgbnksdjfbvkdjsvmSPEAKTHINGdsbgcadsgc') == undefined) {
             var alertel = document.createElement('div')
