@@ -6,6 +6,7 @@
 // @include      *
 // @include      file:///*
 // @grant        none
+// @updateURL    https://raw.githubusercontent.com/hf02/userscripts/master/speak%20thing.js
 // ==/UserScript==
 
 (function () {
