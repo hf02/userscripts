@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         speak text
 // @version      0.1
-// @description  speak text
+// @description  speaks text when an element is clicked on while holding the left alt key.
 // @author       hf02
 // @include      *
 // @include      file:///*
