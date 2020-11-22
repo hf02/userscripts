@@ -12,15 +12,7 @@
 
     // this is a mess
 
-
-    // hey you! wanna change key? use THIS!
     var keyCode = 'AltLeft'
-    // go to http://keycode.info/. press the key you want. copy the text in the event.code box. replace the key in the above line with it.
-    // ex for right shift key: var keyCode = 'ShiftRight'
-    // ex for h key: var keyCode = 'KeyH'
-
-    // todo: good highlighting
-    // done but not gonna delete comment
     function launchSpeakText() {
         if (document.getElementById('alertasdnjfjisadnfalskjfnasljkgcnbsvdkjgbadcjbgvewruyvgvbraeiucgnvervbaglkajdsvgbnksdjfbvkdjsvmSPEAKTHINGdsbgcadsgc') == undefined) {
             var alertel = document.createElement('div')
