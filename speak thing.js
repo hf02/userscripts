@@ -46,8 +46,6 @@
                 }, timeout);
             }
 
-            // alertt('wii explode?')
-
             var style = document.createElement('style')
             style.innerHTML = '/* speak text thingy, plz no remove */ .speaktexthighlightblahblahlbah3hwbfwae7cgm7823wsdgavagewvber5bv7547 {animation: anispeaktexthighlightblahblahlbah3hwbfwae7cgm7823wsdgavagewvber5bv7547 1s infinite linear}@keyframes anispeaktexthighlightblahblahlbah3hwbfwae7cgm7823wsdgavagewvber5bv7547 {0%{filter: invert(0)}50%{filter: invert(1)}100% {filter: invert(0)}} @keyframes fadeoutalertasdnjfjisadnfalskjfnasljkgcnbsvdkjgbadcjbgvewruyvgvbraeiucgnvervbaglkajdsvgbnksdjfbvkdjsvmSPEAKTHINGdsbgcadsgc {0% {opacity: 1}100% {opacity: 0}}'
             document.head.appendChild(style)
@@ -63,7 +61,6 @@
 
 
                 if (event.code == keyCode) {
-                    // console.log('he')
                     if (keyDown != true) {
                         window.speechSynthesis.cancel()
                     }
